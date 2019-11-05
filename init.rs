@@ -6,6 +6,13 @@
 //	apps /// attention ///
 //}
 
+
+
+//THINK ABOUT CONNECTIONS AND TREE REDUCTION (WHAT IS THE LANG - LANG CONNECTIONS .. IT IS THE COMPILER >:P)
+//FLASH COURSE IN TREE REDUCTION  
+
+
+
 //THIS READS THE JSON FILE IN RUST.. 
 //NEEDS TO BE WRAPPED.. 
 //& DESERIALIZE .CRE8
@@ -24,8 +31,7 @@ extern crate rustc_driver;
 //CRE8 PACKAGE MANAGER DOES THIS INTEROP ~ USES IMPORT 
 	//ACTS AS CROSS LOANGUAGE INTEROP..
 	//BY FLATTENING TO CRETE / RUST NOW FLOOR
-		//CAN COMPILE TO STD .ASM //AND ASM.JS EQUIVILANT  FOR TRUE INTEROP
-
+		//CAN COMPILE TO STD .ASM //AND ASM.JS EQUIVILANT FOR TRUE INTEROP
 
 extern crate serde;
 extern crate serde_json;
@@ -57,14 +63,15 @@ fn main() {
    // println!("{:#?}", args);
 
    //CONFIG TYPE..
-   let test: rustc::session::config::Input = "";
+   //let test: rustc::session::config::Input = "";
 
    //PASS TO COMPILER
-   rustc_interface::interface::run_compiler(test);
+   //rustc_interface::interface::run_compiler(test);
 
 
 }
 
+//https://blog.rust-lang.org/images/2016-04-MIR/flow.svg
 
 //.CRE8 specifications, language of lanugages
 	//-->rs converter.. 

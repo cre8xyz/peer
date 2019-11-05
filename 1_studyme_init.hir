@@ -1,0 +1,425 @@
+Crate {
+    module: Mod {
+        inner: init.rs:24:1: 72:2,
+        item_ids: [
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(10),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(11),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(12),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(13),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(14),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(15),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(16),
+                    local_id: 0,
+                },
+            },
+            ItemId {
+                id: HirId {
+                    owner: DefIndex(17),
+                    local_id: 0,
+                },
+            },
+        ],
+    },
+    attrs: [
+        Attribute {
+            item: AttrItem {
+                path: Path {
+                    span: init.rs:24:4: 24:11,
+                    segments: [
+                        PathSegment {
+                            ident: feature#0,
+                            id: NodeId(1),
+                            args: None,
+                        },
+                    ],
+                },
+                tokens: TokenStream(
+                    [
+                        (
+                            Delimited(
+                                DelimSpan {
+                                    open: init.rs:24:11: 24:12,
+                                    close: init.rs:24:25: 24:26,
+                                },
+                                Paren,
+                                TokenStream(
+                                    [
+                                        (
+                                            Token(
+                                                Token {
+                                                    kind: Ident(
+                                                        "rustc_private",
+                                                        false,
+                                                    ),
+                                                    span: init.rs:24:12: 24:25,
+                                                },
+                                            ),
+                                            NonJoint,
+                                        ),
+                                    ],
+                                ),
+                            ),
+                            NonJoint,
+                        ),
+                    ],
+                ),
+            },
+            id: AttrId(
+                0,
+            ),
+            style: Inner,
+            is_sugared_doc: false,
+            span: init.rs:24:1: 24:27,
+        },
+    ],
+    span: init.rs:24:1: 72:2,
+    exported_macros: [],
+    non_exported_macro_attrs: [],
+    items: {
+        HirId {
+            owner: DefIndex(10),
+            local_id: 0,
+        }: Item {
+            ident: #0,
+            hir_id: HirId {
+                owner: DefIndex(10),
+                local_id: 0,
+            },
+            attrs: [
+                Attribute {
+                    item: AttrItem {
+                        path: Path {
+                            span: init.rs:1:1: 1:1,
+                            segments: [
+                                PathSegment {
+                                    ident: prelude_import#1,
+                                    id: NodeId(3),
+                                    args: None,
+                                },
+                            ],
+                        },
+                        tokens: TokenStream(
+                            [],
+                        ),
+                    },
+                    id: AttrId(
+                        2,
+                    ),
+                    style: Outer,
+                    is_sugared_doc: false,
+                    span: init.rs:1:1: 1:1,
+                },
+            ],
+            kind: Use(
+                path(::std::prelude::v1),
+                Glob,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:1:1: 1:1,
+            },
+            span: init.rs:1:1: 1:1,
+        },
+        HirId {
+            owner: DefIndex(11),
+            local_id: 0,
+        }: Item {
+            ident: std#2,
+            hir_id: HirId {
+                owner: DefIndex(11),
+                local_id: 0,
+            },
+            attrs: [
+                Attribute {
+                    item: AttrItem {
+                        path: Path {
+                            span: init.rs:1:1: 1:1,
+                            segments: [
+                                PathSegment {
+                                    ident: macro_use#1,
+                                    id: NodeId(9),
+                                    args: None,
+                                },
+                            ],
+                        },
+                        tokens: TokenStream(
+                            [],
+                        ),
+                    },
+                    id: AttrId(
+                        1,
+                    ),
+                    style: Outer,
+                    is_sugared_doc: false,
+                    span: init.rs:1:1: 1:1,
+                },
+            ],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:1:1: 1:1,
+            },
+            span: init.rs:1:1: 1:1,
+        },
+        HirId {
+            owner: DefIndex(12),
+            local_id: 0,
+        }: Item {
+            ident: rustc#0,
+            hir_id: HirId {
+                owner: DefIndex(12),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:27:1: 27:1,
+            },
+            span: init.rs:27:1: 27:20,
+        },
+        HirId {
+            owner: DefIndex(13),
+            local_id: 0,
+        }: Item {
+            ident: rustc_interface#0,
+            hir_id: HirId {
+                owner: DefIndex(13),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:28:1: 28:1,
+            },
+            span: init.rs:28:1: 28:30,
+        },
+        HirId {
+            owner: DefIndex(14),
+            local_id: 0,
+        }: Item {
+            ident: rustc_driver#0,
+            hir_id: HirId {
+                owner: DefIndex(14),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:29:1: 29:1,
+            },
+            span: init.rs:29:1: 29:27,
+        },
+        HirId {
+            owner: DefIndex(15),
+            local_id: 0,
+        }: Item {
+            ident: serde#0,
+            hir_id: HirId {
+                owner: DefIndex(15),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:36:1: 36:1,
+            },
+            span: init.rs:36:1: 36:20,
+        },
+        HirId {
+            owner: DefIndex(16),
+            local_id: 0,
+        }: Item {
+            ident: serde_json#0,
+            hir_id: HirId {
+                owner: DefIndex(16),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: ExternCrate(
+                None,
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:37:1: 37:1,
+            },
+            span: init.rs:37:1: 37:25,
+        },
+        HirId {
+            owner: DefIndex(17),
+            local_id: 0,
+        }: Item {
+            ident: main#0,
+            hir_id: HirId {
+                owner: DefIndex(17),
+                local_id: 0,
+            },
+            attrs: [],
+            kind: Fn(
+                FnDecl {
+                    inputs: [],
+                    output: DefaultReturn(
+                        init.rs:40:11: 40:11,
+                    ),
+                    c_variadic: false,
+                    implicit_self: None,
+                },
+                FnHeader {
+                    unsafety: Normal,
+                    constness: NotConst,
+                    asyncness: NotAsync,
+                    abi: Rust,
+                },
+                Generics {
+                    params: [],
+                    where_clause: WhereClause {
+                        predicates: [],
+                        span: init.rs:40:9: 40:10,
+                    },
+                    span: init.rs:40:8: 40:8,
+                },
+                BodyId {
+                    hir_id: HirId {
+                        owner: DefIndex(17),
+                        local_id: 69,
+                    },
+                },
+            ),
+            vis: Spanned {
+                node: Inherited,
+                span: init.rs:40:1: 40:1,
+            },
+            span: init.rs:40:1: 72:2,
+        },
+    },
+    trait_items: {},
+    impl_items: {},
+    bodies: {
+        BodyId {
+            hir_id: HirId {
+                owner: DefIndex(17),
+                local_id: 69,
+            },
+        }: Body {
+            params: [],
+            value: expr(HirId { owner: DefIndex(17), local_id: 69 }: {
+                let the_file =
+                    r#"{
+            
+                	"language":"RUST",
+                	"init":"fn main() {println!(\"HI\")}"
+            
+                }"#;
+                let json: serde_json::Value =
+                    serde_json::from_str(the_file).expect("JSON was not well-formatted");
+                {
+                    ::std::io::_print(::core::fmt::Arguments::new_v1(&["", "\n"],
+                                                                     &match (&json["init"],)
+                                                                          {
+                                                                          (arg0,) =>
+                                                                          [::core::fmt::ArgumentV1::new(arg0,
+                                                                                                        ::core::fmt::Display::fmt)],
+                                                                      }));
+                };
+            }),
+            generator_kind: None,
+        },
+    },
+    trait_impls: {},
+    body_ids: [
+        BodyId {
+            hir_id: HirId {
+                owner: DefIndex(17),
+                local_id: 69,
+            },
+        },
+    ],
+    modules: {
+        HirId {
+            owner: DefIndex(0),
+            local_id: 0,
+        }: ModuleItems {
+            items: {
+                HirId {
+                    owner: DefIndex(10),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(11),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(12),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(13),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(14),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(15),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(16),
+                    local_id: 0,
+                },
+                HirId {
+                    owner: DefIndex(17),
+                    local_id: 0,
+                },
+            },
+            trait_items: {},
+            impl_items: {},
+        },
+    },
+}
