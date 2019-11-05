@@ -1,0 +1,14 @@
+##ALL SHOULD BE DYNAMICALL BUILT AT RUNTIME.. 
+	#CONFIG IN JSON OBJECT
+
+#That is, since rustc is written in Rust, we need to use an older version of the compiler to compile the newer version. In particular, the newer version of the compiler and some of the artifacts needed to build it, such as libstd and other tooling, may use some unstable features internally, requiring a specific version which understands these unstable features.
+
+#The rustc_driver is essentially rustc's main() function.
+
+
+[llvm]
+assertions = true
+
+[rust]
+codegen-units = 0
+debug = true

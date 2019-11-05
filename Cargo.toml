@@ -1,0 +1,16 @@
+
+[package]
+name = "peer"
+version = "0.1.0"
+authors = ["Trevor Overman <troverman@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.102"
+serde_json = "1.0.41"
+#rustc = "1"
+#rustc_driver = "1"
+
+[[bin]]
+name = "init"
+path = "init.rs"
