@@ -1,3 +1,20 @@
+//INPUT = SET OF OBJECTS
+//[{
+//	language:"RUST",
+//	init:"fn main() {println!(\"Hello World!\");"}
+//	apps /// attention ///
+//}];
+
+//SEQUENTUALLY HASH OBJ AS TRAVERSE 
+	//RECURSION
+	
+//REFORM BOUDING RADIUS CALCULATION FOR CONSENSUS CALCULATION (PARAMS ARE CONTAINED IN OBJ)
+
+//CONENCTION INSIGHT COMING
+
+//HERE
+
+
 //.CRE8 
 //{
 //	language:"RUST",
@@ -54,6 +71,16 @@ extern crate serde_json;
 //CREATE --> RUST --> (C) 
 fn main() {
 
+	//NEED TO BE AS CODE FORMED
+	//FIRST CONNECT TO NODE -->> NODE DISCOVERY ..
+
+	//GET AVAILABLE PACKAGES
+
+
+
+
+
+
     let the_file = r#"{
 
     	"language":"RUST",
@@ -75,5 +102,10 @@ fn main() {
 
 	//PASS TO COMPILER
     //rustc_interface::interface::run_compiler(test);
+
+
+
+
+
 }
 
