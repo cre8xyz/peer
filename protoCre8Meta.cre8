@@ -1,0 +1,26 @@
+{
+	//HASH
+	id:"",
+
+	//APP DEFINITIONS THOUGH SELF-CONNECTIONS
+	type:"CONNECTION2ASM",
+
+	//STRINGIFIED JSON
+	data:{
+
+		//init / code
+		//input is code, output is asm . . . 
+		init:function(params){
+
+
+		},
+
+		connection2Asm:{
+
+		},
+
+	},
+
+}
+
+//run data.init(params)

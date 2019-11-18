@@ -77,10 +77,6 @@ fn main() {
 	//GET AVAILABLE PACKAGES
 
 
-
-
-
-
     let the_file = r#"{
 
     	"language":"RUST",
@@ -91,6 +87,12 @@ fn main() {
     let json: serde_json::Value = serde_json::from_str(the_file).expect("JSON was not well-formatted");
 
     println!("{}", json["init"]);
+
+    //AGNOSTIC BUILDING..
+    //WASM--WEB
+    //armv7 - iOS
+    //--Android
+    //--ASSEMBLY TYPE .. LLVM
 
 	//let args: Vec<_> = std::env::args().collect();
 	//let args: Vec<_> = json["init"];
